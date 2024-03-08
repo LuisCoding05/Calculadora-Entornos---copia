@@ -15,4 +15,7 @@ public class OperacionesCalculadora {
 	public int dividir (int numUno, int numDos) {
 		return (numUno / numDos);
 	}
+	public double elevar (double numUno, double numDos){
+		return Math.pow(numUno, numDos); 
+	}
 }

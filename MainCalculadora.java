@@ -57,7 +57,8 @@ public class MainCalculadora {
 	            		System.out.println("El resultado de " + num1 + " / " + num2 + " = " + resultado );
 	            		break;
                     case 5:
-                        /*Aquí hay que hacer la función de elevar números */
+					resultado = funcion.elevar(a,b);
+					System.out.println("El resultado de " + num1 + " ^ " + num2 + " = " + resultado );
                     break;
 	            	
                     case 6:
